@@ -50,6 +50,8 @@ parser.parseString(" cdata ]]>");
 parser.parseString("</body");
 parser.parseString("></html>");
 
-
+//example read synchronously
+parser.parseFileSync("sample.xml");
+sys.puts("All Done!");
 
 
